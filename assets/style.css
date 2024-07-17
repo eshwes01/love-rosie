@@ -3,3 +3,8 @@
 header{
     margin:0;
 }
+
+.logo{
+    background: url("assets/images/3finger.jpg") center no-repeat/cover;
+    min-height: 360px;
+}
