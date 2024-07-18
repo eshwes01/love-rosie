@@ -23,7 +23,7 @@ header{
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    -webkit-transition: all .10s ease-in-out;
 }
 
 /* ---- Name ----  */
@@ -43,15 +43,61 @@ header{
     margin-bottom: 90px;
     color:#ffffff;
 }
+/* -----------Nav Menu  -------------- */
 .ui-menu-color-home{
     background-color: rgba(227, 167, 167,.7) ;
 }
 .ui-menu-color-resume{
-    background-color: rgba(112, 74, 74, 0.7) ;
+    background-color: rgba(68, 141, 201, 0.7) ;
 }
 .ui-menu-color-contact{
-    background-color: rgba(50, 164, 131, 0.7) ;
+    background-color: rgba(87, 214, 178, 0.7) ;
 }
 .ui-menu-color-download{
     background-color: rgba(122, 146, 151, 0.7) ;
 }
+
+.list-inline-item:not(:last-child){
+    margin:0;
+}
+
+.menu-container{
+    font-size:0;
+}
+#nav li{
+    font-size: 14px;
+    padding:2px;
+}
+.menuitem{
+    text-align:center;
+    height:120px;
+    padding:0;
+}
+.menuitem a{
+    width:100%;
+    padding-top:22px;
+    display:block;
+    color: #fafafa;
+    font-size:26px;
+    text-decoration: none;
+}
+.menuitem span{
+    display:block;
+    width:100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:300;
+    letter-spacing: 2px;
+}
+
+/* ------------- Hover.css ------------- */
+.hvr-sweep-to-bottom:before{
+    background:rgba(0,0,0, 0.2);
+    height: 120px;
+}
+
+
+
+
