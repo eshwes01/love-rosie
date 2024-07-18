@@ -104,11 +104,17 @@ h1,h2,h3,h4{
 .uppercase{
     text-transform: uppercase;
 }
+
 .general-sub{
     font-family: "Exo",sans-serif;
     font-weight: 300;
     color:#fafafa;
 }
+
+.inline-block {
+    display:inline-block;
+}
+
 /* ---- Footer ----  */
 footer{
     margin:0;
@@ -116,6 +122,26 @@ footer{
     color:#fafafa;
     min-height: 120px;
 }
+
+.cv-pdf i{
+    font-size: 18px;
+    color: #fafafa;
+    padding-left: 5px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover{
+        color: #d66718;
+}
+
+
+
+
+
 
 
 
