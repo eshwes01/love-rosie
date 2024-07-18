@@ -98,6 +98,24 @@ header{
     height: 120px;
 }
 
+h1,h2,h3,h4{
+    margin:0;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.general-sub{
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    color:#fafafa;
+}
+/* ---- Footer ----  */
+footer{
+    margin:0;
+    background-color:#525252;
+    color:#fafafa;
+    min-height: 120px;
+}
 
 
 
