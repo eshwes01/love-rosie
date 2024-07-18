@@ -183,6 +183,15 @@ footer{
     padding:20px;
 }
 
+/* ---- Footer ----  */
+.three-reasons-icon{
+    font-size:26px;
+    color:rgba(227, 167, 167,.7);
+}
+
+.three-reasons-heading{
+    margin-bottom: 15px;
+}
 
 
 
