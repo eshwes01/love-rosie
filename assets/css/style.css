@@ -43,3 +43,15 @@ header{
     margin-bottom: 90px;
     color:#ffffff;
 }
+.ui-menu-color-home{
+    background-color: rgba(227, 167, 167,.7) ;
+}
+.ui-menu-color-resume{
+    background-color: rgba(112, 74, 74, 0.7) ;
+}
+.ui-menu-color-contact{
+    background-color: rgba(50, 164, 131, 0.7) ;
+}
+.ui-menu-color-download{
+    background-color: rgba(122, 146, 151, 0.7) ;
+}
