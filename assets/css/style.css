@@ -138,7 +138,30 @@ footer{
         color: #d66718;
 }
 
+.social-links{
+    padding-bottom:15px;
+}
 
+.social-links li a i{
+    width:32px;
+    height:32px;
+    padding: 12px 0;
+    font-size: 13px;
+    text-align:center;
+    color:#fafafa;
+    background: #3b2e2e;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    border-radius:30%;
+}
+.social-links li a i:hover{
+    background-color: #d66718;
+}
+#footer-details{
+    padding:20px;
+}
 
 
 
