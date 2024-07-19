@@ -26,6 +26,10 @@ header{
     background-color: rgba(68, 141, 201, 0.7);
 }
 
+.bg-color-contact {
+    background-color: rgba(87, 214, 178, 0.3);
+}
+
 /* ---- Logo ----  */
 .logo {
     background: url("../images/3finger.jpg");
@@ -60,13 +64,13 @@ header{
     background-color: rgba(227, 167, 167,.7) ;
 }
 .ui-menu-color-resume{
-    background-color: rgba(68, 141, 201, 0.7) ;
+    background-color: rgba(68, 141, 201, 0.7);
 }
 .ui-menu-color-contact{
-    background-color: rgba(87, 214, 178, 0.7) ;
+    background-color: rgba(87, 214, 178, 0.7);
 }
 .ui-menu-color-download{
-    background-color: rgba(122, 146, 151, 0.7) ;
+    background-color: rgba(122, 146, 151, 0.7);
 }
 
 .list-inline-item:not(:last-child){
@@ -158,7 +162,14 @@ footer{
     background-color:#525252;
     color:#fafafa;
     min-height: 120px;
+    padding-bottom:0;
+    margin-bottom:0;
 }
+
+#footer-details{
+    padding:20px;
+}
+
 
 .cv-pdf i{
     font-size: 18px;
@@ -193,14 +204,15 @@ footer{
     -o-transition: all 0.35s ease-in-out;
     border-radius:30%;
 }
+
 .social-links li a i:hover{
     background-color: #d66718;
 }
-#footer-details{
-    padding:20px;
-}
 
-/* ---- Footer ----  */
+
+
+
+/* ------ footer / ----------- */
 .three-reasons-icon{
     font-size:26px;
     color:rgba(227, 167, 167,.7);
@@ -274,3 +286,33 @@ footer{
 .history-items{
     margin-bottom: 30px;
 }
+
+/* ---------------- Contact form ------------- */
+.contact-heading{
+    font-family: "exo",sans-serif;
+    margin-top :25px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width:70%;
+}
+
+button[type="submit"]{
+    margin-top:15px;
+    margin-bottom:20px;
+    color:#fafafa;
+    background-color:#d66718;
+}
+/* ------------- Media Query ----------*/
+@media(min-width:992px){
+    .center-form {
+        padding-top: 30px;
+        margin: 0 auto;
+        min-height:0 auto;
+        max-width:50%;
+    }
+}
+
