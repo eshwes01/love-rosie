@@ -22,6 +22,10 @@ header{
     background-color: #f4f4f4;
 }
 
+.bg-color-work-history{
+    background-color: rgba(68, 141, 201, 0.7);
+}
+
 /* ---- Logo ----  */
 .logo {
     background: url("../images/3finger.jpg");
@@ -227,4 +231,46 @@ footer{
 }
 .progress-section{
     margin: 40px 20px;
+}
+
+/* -------- Work History -------  */
+.history-heading{
+    color:#fafafa;
+    margin-bottom:50px;
+}
+.timeline-item{
+     padding: 4em 2em 0em 2em;
+     color:#fafafa;
+     position: relative;
+     border-left: 1px solid;
+}
+.timeline-item p{
+    padding: 0;
+    margin:0;
+}
+.timeline-item:before{
+    position: absolute;
+    content: attr(data-dates);
+    left:2.5em;
+    top: 3em;
+    font-family: "Exo",sans-serif;
+    display: block;
+    font-weight:500;
+    font-size:0.8em;
+    padding: 0;
+    margin:0;
+}
+.timeline-item:after{
+    width:12px;
+    height:12px;
+    display:block;
+    top: 2.4 em;
+    position: absolute;
+    left :-6px;
+    border-radius:12px;
+    content :'';
+    background:#f4f4f4;
+}
+.history-items{
+    margin-bottom: 30px;
 }
