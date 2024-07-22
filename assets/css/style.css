@@ -40,12 +40,11 @@ header{
      transition:all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .10s ease-in-out; 
-   
+    margin:0;
 }
 
 .logo:hover {
   background-color: violet;
-}
 }
 
 /* ---- Name ----  */
@@ -94,6 +93,7 @@ header{
     padding-bottom: 0;
     margin:0;
 }
+
 #nav li{
     font-size: 14px;
     padding:2px;
@@ -167,13 +167,15 @@ footer{
     margin:0;
     background-color:#525252;
     color:#fafafa;
-    min-height: 120px;
+    min-height: 200px;
     padding-bottom:0;
     margin-bottom:0;
+    
 }
 
 #footer-details{
-    padding:20px;
+    padding:30px;
+    
 }
 
 
@@ -307,18 +309,26 @@ footer{
 }
 
 button[type="submit"]{
-    margin-top:15px;
-    margin-bottom:20px;
+    margin-top:35px;
+    margin-bottom:35px;
     color:#fafafa;
     background-color:#d66718;
 }
+
+.center-form{
+    padding-top: 100px;
+    padding-bottom:80px;
+    margin: 20 20 auto;
+}
+
 /* ------------- Media Query ----------*/
 @media(min-width:992px){
     .center-form {
         padding-top: 30px;
         margin: 0 auto;
-        min-height:0 auto;
-        max-width:50%;
+        min-height: 0;
+        max-height: 80%;
+        max-width: 50%;
     }
 }
 
