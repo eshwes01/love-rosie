@@ -9,6 +9,13 @@ header{
     margin-left :50px;
 }
 
+/* --------------------container-fluid */
+.container-fluid {
+    width: 100%; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* ---- Bg Colour Name /title/ Three Reasons ----  */
 .bg-col-color-name-title{
     background-color: #676767;
@@ -168,14 +175,13 @@ footer{
     background-color:#525252;
     color:#fafafa;
     min-height: 200px;
-    padding-bottom:0;
     margin-bottom:0;
     
 }
 
 #footer-details{
-    padding:30px;
-    
+    padding:30px 30px;
+    margin:0
 }
 
 
@@ -236,7 +242,6 @@ footer{
 
 /* -----------my skills ----------- */
 .progress{
-
     position: relative;
     height: 25px;
     margin-bottom: 4px;
